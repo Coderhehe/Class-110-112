@@ -26,7 +26,7 @@ classifier=ml5.imageClassifier("MobileNet",modelLoaded);
 function modelLoaded() {
     console.log("Model Loaded!");
 }
-function check(params) {
+function check() {
     img=document.getElementById("ci");
     classifier.classify(img,gotResult);
 }
